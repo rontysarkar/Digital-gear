@@ -77,11 +77,18 @@ header {
   padding: 1rem;
   margin-top: 2rem;
 }
+/* siteee section styles  */
 
-/* .front-img img{
-    background-image: url(/images/Circle\ design.svg); 
-    background-repeat: no-repeat;
-} */
+.site{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
 
 /* mobile divice  section styles max 576px  */
 
@@ -119,6 +126,10 @@ header {
   }
   .front-discription{
     padding-right: 0;
+  }
+  .site{
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
 }
