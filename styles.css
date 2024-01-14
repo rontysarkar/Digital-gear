@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* hear section styles */
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 3.5rem;
+}
+.meno {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-title {
+  color: #3a3a3a;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.nav ul {
+  display: flex;
+  gap: 34px;
+}
+.nav li {
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* font page section styles  */
+
+.front-page {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+}
+
+.front-content{
+   margin-top: 50px; 
+   padding: 50px;
+}
+
+.front-title {
+  color: #3a3a3a;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.front-discription {
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1vw auto;
+  padding-right: 90px;
+}
+.btn {
+  border-radius: 41px;
+  background: #e02c6d;
+  color: #FFFFFF;
+  border: none;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* .front-img img{
+    background-image: url(/images/Circle\ design.svg); 
+    background-repeat: no-repeat;
+} */
+
+/* mobile divice  section styles max 576px  */
+
+@media screen and (max-width: 576px) {
+  .nav {
+    display: none;
+  }
+  .meno {
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  .meno i {
+    margin-top: 7px;
+    font-size: 6vw;
+  }
+/* main section    */
+
+  .front-page{
+    flex-direction: column-reverse;
+  }
+  .front-img {
+    margin: 0 auto;
+    width: 80;
+  }
+  .front-img img{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .front-content{
+    text-align: center;
+    padding: 10px;
+
+  }
+  .front-discription{
+    padding-right: 0;
+  }
+
+}
